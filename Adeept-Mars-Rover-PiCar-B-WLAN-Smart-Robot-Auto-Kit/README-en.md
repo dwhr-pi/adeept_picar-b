@@ -14,6 +14,7 @@
 
 [Documentation for structure assembly]: https://www.adeept.com/learn/detail-33.html
 
+
 Getting Started with Raspberry Pi Robot and Python 
 ----
 * [Getting Started with Raspberry Pi Robot and Python](#getting-started-with-raspberry-pi-robot-and-python)
@@ -55,7 +56,7 @@ This documentation is for software installation and operation guide for the Pyth
 
 According to the different situations of different users, there will be some changes in the process of this document, you can refer to the following process: 
 
-![mermaid](images/mermaid.png)
+![mermaid](img/mermaid.png)
 
 
 ## 2. Getting to Use the Raspberry Pi
