@@ -1,8 +1,8 @@
-[RobotName]: Adeept_Rasptank
+[RobotName]: Adeept_PiCar-B
 
-[RobotURL]: https://github.com/adeept/adeept_rasptank
+[RobotURL]: https://github.com/adeept/adeept_picar-b
 
-[RobotGit]: https://github.com/adeept/adeept_rasptank.git
+[RobotGit]: https://github.com/adeept/adeept_picar-b.git
 
 [Official Raspberry Pi website]: https://www.raspberrypi.org/downloads/
 
@@ -10,9 +10,9 @@
 
 [Official website]: https://www.adeept.com/
 
-[GitHub]: https://github.com/adeept/adeept_rasptank/
+[GitHub]: https://github.com/adeept/adeept_picar-b
 
-[Documentation for structure assembly]: https://www.adeept.com/learn/
+[Documentation for structure assembly]: https://www.adeept.com/learn/detail-33.html
 
 Getting Started with Raspberry Pi Robot and Python 
 ----
