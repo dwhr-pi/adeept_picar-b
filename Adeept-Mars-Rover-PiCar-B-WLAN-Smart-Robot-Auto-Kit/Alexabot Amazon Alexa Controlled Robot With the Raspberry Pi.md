@@ -59,6 +59,7 @@ Alexabot works by using a few services strung together.
 - Setting Up AlexaPi
 
 The first step towards robot world domination and build our Amazon Alexa controlled robot is to set up AlexaPi.
+
 ![Setting Up AlexaPi](imagesGoPiGo/1-Setup_New_Device-300x147.png "Setting Up AlexaPi")
 
 There are a few tutorials on how to turn your Raspberry Pi into an Amazon Echo using Amazon Alexa.  However, AlexaPi is the easiest way to get Amazon Alexa on your Raspberry Pi.  The project has prepared everything you can possibly do to make setting up Alexa Voice Services on your Raspberry Pi streamlined and easy.  The hardest part is setting up your Amazon Developer account and gathering your credentials (and really, that’s not that bad!).
@@ -69,9 +70,9 @@ We followed the step-by-step instructions for setting up an account on your Rasp
 
 Installing AlexaPi on your Raspberry Pi is also quick!  You’ll need to punch in a few Git commands outline here.  Before you begin, gather up the credentials you created, such as your Client ID, your Client Secret, and your Security Profile ID.  In the command line:
 
-cd /opt
-sudo git clone https://github.com/alexa-pi/AlexaPi.git
-sudo ./AlexaPi/src/scripts/setup.sh
+    cd /opt
+    sudo git clone https://github.com/alexa-pi/AlexaPi.git
+    sudo ./AlexaPi/src/scripts/setup.sh
 
 At this point you should be able to run Alexa on your GoPiGo, just as you would an Amazon Echo. Ask it for a news update: “Alexa What’s the News?”
 
