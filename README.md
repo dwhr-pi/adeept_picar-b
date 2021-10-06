@@ -55,3 +55,5 @@ https://github.com/adeept/adeept_picar-b
 [Description](https://github.com/karlyamashita/adeept_picar-b)
 
 - Good suggestions: 
+
+[Alexabot: Amazon Alexa Controlled Robot With the Raspberry Pi](https://www.dexterindustries.com/projects/alexabot-amazon-alexa-controlled-robot/)
