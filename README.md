@@ -34,4 +34,6 @@ Adeept is a technical service team of open source software and hardware. Dedicat
 Addition
 
 Interesting Forks: 
+[Enhancements for PiCar-B including mobile script](https://github.com/ricktorzynski/adeept-picar-b-enhanced)
+
 Good suggestions: 
