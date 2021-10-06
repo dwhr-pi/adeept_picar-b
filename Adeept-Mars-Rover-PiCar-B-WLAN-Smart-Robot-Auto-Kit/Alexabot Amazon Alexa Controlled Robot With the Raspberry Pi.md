@@ -126,6 +126,7 @@ We will need to do this for all the moves you want your Amazon Alexa controlled 
 
 
 - Connect to ngrok
+
 We will have IFTTT contact a server on the Pi, but the tricky part will be setting up a server on the Pi that’s visible to the world outside our local WiFi network. 
 [ngrok](https://ngrok.com/) is a service that allows you to connect to your Raspberry Pi through any network.  With ngrok, you don’t need to be on the same local network as your Pi to SSH in or to access a web server.  ngrok will help us pipe information back from IFTTT to the Pi. IFTTT needs an internet-based URL to contact, so we’ll use ngrok to make our server accessible to the outside world.
 
@@ -147,7 +148,7 @@ Test out ngrok.  You can type the following into the command line:
     ./ngrok http 80
 And you should see a server start up.
 
-    ngrok_start-example
+![ngrok_start-example](imagesGoPiGo/NGROK_START-example.png "ngrok_start-example")
 
 When an IP address appears, try typing this into your browser.  You should see your default server on Port 80 come up.  With Raspbian for Robots, you should see the Raspbian for Robots entrance page show up.
 
