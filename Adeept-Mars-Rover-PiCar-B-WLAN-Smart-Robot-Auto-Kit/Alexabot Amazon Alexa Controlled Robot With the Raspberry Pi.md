@@ -9,6 +9,8 @@ https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi.html
 
 NOTE: This tutorial is outdated. Please refer to Alexa Voice Service  SDK 
 
+
+![GoPiGo](images/Amazon-Alexa-Controlled-Robot-final_title-1-300x208.jpg "Alexabot is an amazon alexa controlled robot that moves when you command it. Your wish is my command.")
 *Alexabot is an amazon alexa controlled robot that moves when you command it.
 Your wish is my command.*
 
@@ -49,9 +51,9 @@ Alexabot works by using a few services strung together.
 - Flask: Finally, we listen for commands, and control the robot using a python program using a very simple Flask server.
 
 
-## alexabot-schematic Amazon Alexa Controlled Robot Schematic 
+##  Amazon Alexa Controlled Robot Schematic 
 
-
+![Alexabot-schematic](imagesGoPiGo/Alexabot-Schematic-1024x359.jpg "Alexabot-schematic")
 - Setting Up AlexaPi
 The first step towards robot world domination and build our Amazon Alexa controlled robot is to set up AlexaPi.
 
