@@ -42,6 +42,12 @@ https://github.com/adeept/adeept_picar-b
 
 [Tutorial_V2-Part 3](.docs/Tutorial_V2.md)
 
+[Tutorial_V2-Part 3](.docs/Tutorial_V2.md) PiCarPro Assembly tutorial V3.0 - Montageanleitung
+
+[Adeept PiCar-B image file URL - Adeept PiCar-B image file](.docs/Adeept PiCar-B image file URL - Adeept PiCar-B image file.md) Adeept PiCar-B image file URL
+
+[Alexabot Amazon Alexa Controlled Robot With the Raspberry Pi](.docs/Alexabot Amazon Alexa Controlled Robot With the Raspberry Pi.md) Alexabot Amazon Alexa Controlled Robot With the Raspberry Pi
+
 
 ## Addition
 
