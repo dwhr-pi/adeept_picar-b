@@ -11,6 +11,7 @@ NOTE: This tutorial is outdated. Please refer to Alexa Voice Service  SDK
 
 
 ![GoPiGo](imagesGoPiGo/Amazon-Alexa-Controlled-Robot-final_title-1-300x208.jpg "Alexabot is an amazon alexa controlled robot that moves when you command it. Your wish is my command.")
+
 *Alexabot is an amazon alexa controlled robot that moves when you command it.
 Your wish is my command.*
 
