@@ -41,6 +41,7 @@ The hardware set up to build the Alexa controlled robot is very simple.  We used
 - Raspbian for Robots – Most of the software for this project is pre-installed.
 - The Speaker for the Raspberry Pi – Alexabot will talk back to us, so we’ll need a speaker to hear her voice.
 - A USB Microphone – Our way to talk to Alexabot.  This one is plug and play and seems to work well in a noisy room.
+
 Set up is quick and easy.  First step is to assemble the GoPiGo Robot for the Raspberry Pi.  Then we mounted the microphone to one of the USB ports in front of the GoPiGo.  Finally we mounted the speaker for the Raspberry Pi to the top of the GoPiGo and held it in place with a ziptie.  The robot is powered with 8XAA batteries.
 
 ## Software Set Up
@@ -87,15 +88,19 @@ Next in IFTTT, you will want to set up your applets.  We will need an applet for
 First, connect Amazon Alexa to your IFTTT Account.   Then we’ll do the following to create an applet that will handle a single command:
 
 1. Create an IFTTT applet *for our first command.  We will create an* Alexa applet.
-  ![Amazon Alexa Controlled Robot](imagesGoPiGo/Select-Alexa-Service.png "Amazon Alexa Controlled Robot")
+
+![Amazon Alexa Controlled Robot](imagesGoPiGo/Select-Alexa-Service.png "Amazon Alexa Controlled Robot")
 
 2.  Select “Say a Specific Phrase”.
+
 ![applet-say-a-specific-phrase](imagesGoPiGo/Applet-Say-a-specific-phrase-300x284.png "applet-say-a-specific-phrase")
 
 3.  Specify the command. Say “Backward”
+
 ![Amazon Alexa Controlled Robot](imagesGoPiGo/Applet-Say-specify-the-command-264x300.png "Amazon Alexa Controlled Robot")
 
 4.  Next, select “That”.
+
 ![Amazon Alexa Controlled Robot Select That in IFTT](imagesGoPiGo/Applet-Select-THAT-300x70.png "Amazon Alexa Controlled Robot Select That in IFTT")
 
 
@@ -126,26 +131,26 @@ First, set up an account with ngrok here.  You can get away with a free account,
 
 Next install ngrok on your Raspberry Pi.  On your Pi, in the command line, type:
 
- mkdir ~/ngrok
- cd ~/ngrok
- sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
- unzip ngrok-stable-linux-arm.zip
+    mkdir ~/ngrok
+    cd ~/ngrok
+    sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+    unzip ngrok-stable-linux-arm.zip
 This should install all the software.  You will next need to get your token; this will authorize your Raspberry Pi to ngrok.  If you login to your account here, you will see step 2, with your token already populated.  It should start with “./ngrok authtoken”.  Copy the command, and paste it into your command line.
 
-ngrok-install-authtoken
+    ngrok-install-authtoken
 
 Test out ngrok.  You can type the following into the command line:
 
-./ngrok http 80
+    ./ngrok http 80
 And you should see a server start up.
 
-ngrok_start-example
+    ngrok_start-example
 
 When an IP address appears, try typing this into your browser.  You should see your default server on Port 80 come up.  With Raspbian for Robots, you should see the Raspbian for Robots entrance page show up.
 
 We will start our server with the following command:
 
- ./ngrok http -subdomain=dexterindustries 5000
+    ./ngrok http -subdomain=dexterindustries 5000
 Where “dexterindustries” is a reserved domain set up with our basic account on ngrok.  If you go with the free account, you’ll now need to go back and re-enter the domain name that ngrok gave your Pi above into each of your IFTTT commands.
 
 - Set Up the Flask Server
@@ -161,18 +166,19 @@ You can find the file by either updating your GoPiGo directory, or by simply run
 sudo wget https://raw.githubusercontent.com/DexterInd/GoPiGo/master/Projects/Alexabot/alexabot-flask-app.py
 And then run the server:
 
-python alexabot-flask-app.py
-You should see something like this:
+    python alexabot-flask-app.py
+    You should see something like this:
 
-flask-server-started-on-alexabot
+    flask-server-started-on-alexabot
 
 To get a general idea of how the code works on the Flask server, we’ve set up each command to listen to a specific Flask URL.  For example, if you were to call, in your web browser, “http://alexabot.ngrok.io/forward” we get the response in our browser back “Alexabot moved forward!”.  Looking at the code for the directory “forward”:
 
-print("Forward!")
-gopigo.fwd() # Send the GoPiGo Forward
-time.sleep(1) # for 1 second.
-gopigo.stop() # the stop the GoPiGo
-return 'Alexabot moved forward!'
+    print("Forward!")
+    gopigo.fwd() # Send the GoPiGo Forward
+    time.sleep(1) # for 1 second.
+    gopigo.stop() # the stop the GoPiGo
+    return 'Alexabot moved forward!'
+
 The first think we’ll do is send some text to the command line.  Then we’ll send the GoPiGo forward (easy with a single line of code!), then wait 1 second, and then stop the GoPiGo.
 
 This illustrates how the “Forward” command works; each command will also work this way with its own directory and custom code for moving the GoPiGo.
@@ -184,13 +190,16 @@ Now, with all the services set up, we should be able to say a command like “Al
 
 The quickstart to get running with Alexabot are to first start AlexaPi:
 
-sudo python /opt/AlexaPi/src/main.py
+    sudo python /opt/AlexaPi/src/main.py
+
 Next, start ngrok in a separate window:
 
-sudo ~/ngrok/ngrok http -subdomain=dexterindustries -log=stdout 5000 > log.txt &
+    sudo ~/ngrok/ngrok http -subdomain=dexterindustries -log=stdout 5000 > log.txt &
+
 Finally, start the Flask server:
 
-sudo python alexabot-flask-app.py
+    sudo python alexabot-flask-app.py
+
 Start talking!  Remember your commands need to start with “Alexa trigger . . . ” and then the command you want to robot to do.
 
 ## Moving Our Amazon Alexa Controlled Robot Forward
