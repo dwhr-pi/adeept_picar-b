@@ -55,7 +55,9 @@ Alexabot works by using a few services strung together.
 ##  Amazon Alexa Controlled Robot Schematic 
 
 ![Alexabot-schematic](imagesGoPiGo/Alexabot-Schematic-1024x359.jpg "Alexabot-schematic")
+
 - Setting Up AlexaPi
+
 The first step towards robot world domination and build our Amazon Alexa controlled robot is to set up AlexaPi.
 ![Setting Up AlexaPi](imagesGoPiGo/1-Setup_New_Device-300x147.png "Setting Up AlexaPi")
 
@@ -84,8 +86,7 @@ Next in IFTTT, you will want to set up your applets.  We will need an applet for
 First, connect Amazon Alexa to your IFTTT Account.   Then we’ll do the following to create an applet that will handle a single command:
 
 1. Create an IFTTT applet *for our first command.  We will create an* Alexa applet.
- 
- ![Amazon Alexa Controlled Robot](imagesGoPiGo/Select-Alexa-Service.png "Amazon Alexa Controlled Robot")
+  ![Amazon Alexa Controlled Robot](imagesGoPiGo/Select-Alexa-Service.png "Amazon Alexa Controlled Robot")
 
 2.  Select “Say a Specific Phrase”.
 ![applet-say-a-specific-phrase](imagesGoPiGo/Applet-Say-a-specific-phrase-300x284.png "applet-say-a-specific-phrase")
