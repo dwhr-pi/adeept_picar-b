@@ -215,4 +215,4 @@ Start talking!  Remember your commands need to start with “Alexa trigger . . .
 ## Moving Our Amazon Alexa Controlled Robot Forward
 One area of improvement in our Amazon Alexa Controlled Robot might be to reduce lag.  With a steady internet connection, I left Alexabot running all weekend and it was still responsive in the morning (update: 5 days and counting).  However, you’ll notice there is a varying amount of lag between commands and response.  There are so many services strung together some slowdown is likely.  The next step and future improvement would be to develop our own service on Alexa to return the text command directly.
 
-Want to build it yourself?  You can get the GoPiGo and Raspberry Pi here!  We would love to hear if you build your own Amazon Alexa controlled robot!
+Want to build it yourself?  [You can get the GoPiGo and Raspberry Pi here](https://www.dexterindustries.com/store/ "You can get the GoPiGo and Raspberry Pi here")!  We would love to hear if you build your own Amazon Alexa controlled robot!
