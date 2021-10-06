@@ -57,7 +57,8 @@ Alexabot works by using a few services strung together.
 ![Alexabot-schematic](imagesGoPiGo/Alexabot-Schematic-1024x359.jpg "Alexabot-schematic")
 - Setting Up AlexaPi
 The first step towards robot world domination and build our Amazon Alexa controlled robot is to set up AlexaPi.
-![Alternativtext](imagesGoPiGo/1-Setup_New_Device-300x147.png "Bildtitel hier")
+![Setting Up AlexaPi](imagesGoPiGo/1-Setup_New_Device-300x147.png "Setting Up AlexaPi")
+
 There are a few tutorials on how to turn your Raspberry Pi into an Amazon Echo using Amazon Alexa.  However, AlexaPi is the easiest way to get Amazon Alexa on your Raspberry Pi.  The project has prepared everything you can possibly do to make setting up Alexa Voice Services on your Raspberry Pi streamlined and easy.  The hardest part is setting up your Amazon Developer account and gathering your credentials (and really, that’s not that bad!).
 
 Before you begin, you will want to connect your GoPiGo to your local wifi network, and establish a static IP address for it.  The Raspberry Pi will need a static IP address to set up the security credentials for Amazon.  Here’s a quick reminder of how to set a static IP address from your PC or how to set a static IP address with your Mac.
@@ -84,16 +85,16 @@ First, connect Amazon Alexa to your IFTTT Account.   Then we’ll do the followi
 
 1. Create an IFTTT applet *for our first command.  We will create an* Alexa applet.
  
- ![Amazon Alexa Controlled Robot](imagesGoPiGo/Select-Alexa-Service.png "Bildtitel hier")
+ ![Amazon Alexa Controlled Robot](imagesGoPiGo/Select-Alexa-Service.png "Amazon Alexa Controlled Robot")
 
 2.  Select “Say a Specific Phrase”.
-![applet-say-a-specific-phrase](imagesGoPiGo/Applet-Say-a-specific-phrase-300x284.png "Bildtitel hier")
+![applet-say-a-specific-phrase](imagesGoPiGo/Applet-Say-a-specific-phrase-300x284.png "applet-say-a-specific-phrase")
 
 3.  Specify the command. Say “Backward”
-![Amazon Alexa Controlled Robot](imagesGoPiGo/Applet-Say-specify-the-command-264x300.png "Bildtitel hier")
+![Amazon Alexa Controlled Robot](imagesGoPiGo/Applet-Say-specify-the-command-264x300.png "Amazon Alexa Controlled Robot")
 
 4.  Next, select “That”.
-![Amazon Alexa Controlled Robot Select That in IFTT](imagesGoPiGo/Applet-Select-THAT-300x70.png "Bildtitel hier")
+![Amazon Alexa Controlled Robot Select That in IFTT](imagesGoPiGo/Applet-Select-THAT-300x70.png "Amazon Alexa Controlled Robot Select That in IFTT")
 
 
 5.  We’ll use the action service “Maker”.
