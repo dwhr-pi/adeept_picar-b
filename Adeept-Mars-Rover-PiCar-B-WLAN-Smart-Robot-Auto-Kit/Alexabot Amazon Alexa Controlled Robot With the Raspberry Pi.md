@@ -157,25 +157,31 @@ We will start our server with the following command:
     ./ngrok http -subdomain=dexterindustries 5000
 Where “dexterindustries” is a reserved domain set up with our basic account on ngrok.  If you go with the free account, you’ll now need to go back and re-enter the domain name that ngrok gave your Pi above into each of your IFTTT commands.
 
+
+
 - Set Up the Flask Server
 The final step in setting up our Amazon Alexa controlled robot is setting up the Flask server on the Raspberry Pi.
 
 We’ll set up a Flask server in Python to listen to IFTT.  We assume you’re running Raspbian for Robots, which has the Python package manager Pip already installed.  To install Flask on the Raspberry Pi, you’ll simply need to bang the following into your command line:
 
-sudo pip install flask
+    sudo pip install flask
+
 That’s pretty much it.  Flask should be installed.  You can try running the flask server we’ve provided in our github code and see what happens.
 
 You can find the file by either updating your GoPiGo directory, or by simply running:
 
-sudo wget https://raw.githubusercontent.com/DexterInd/GoPiGo/master/Projects/Alexabot/alexabot-flask-app.py
+    sudo wget https://raw.githubusercontent.com/DexterInd/GoPiGo/master/Projects/Alexabot/alexabot-flask-
+    app.py
+
 And then run the server:
 
     python alexabot-flask-app.py
-    You should see something like this:
+You should see something like this:
 
-    flask-server-started-on-alexabot
+[flask-server-started-on-alexabot](imagesGoPiGo/flask-started-on-alexabot.png "flask-server-started-on-alexabot")
+    
 
-To get a general idea of how the code works on the Flask server, we’ve set up each command to listen to a specific Flask URL.  For example, if you were to call, in your web browser, “http://alexabot.ngrok.io/forward” we get the response in our browser back “Alexabot moved forward!”.  Looking at the code for the directory “forward”:
+To get a general idea of how the code works on the Flask server, we’ve set up each command to listen to a specific Flask URL.  For example, if you were to call, in your web browser, “[http://alexabot.ngrok.io/forward](http://alexabot.ngrok.io/forward)"http://alexabot.ngrok.io/forward"” we get the response in our browser back “Alexabot moved forward!”.  Looking at the code for the directory “forward”:
 
     print("Forward!")
     gopigo.fwd() # Send the GoPiGo Forward
