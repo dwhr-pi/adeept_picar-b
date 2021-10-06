@@ -10,7 +10,7 @@ https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi.html
 NOTE: This tutorial is outdated. Please refer to Alexa Voice Service  SDK 
 
 
-![GoPiGo](images/Amazon-Alexa-Controlled-Robot-final_title-1-300x208.jpg "Alexabot is an amazon alexa controlled robot that moves when you command it. Your wish is my command.")
+![GoPiGo](imagesGoPiGo/Amazon-Alexa-Controlled-Robot-final_title-1-300x208.jpg "Alexabot is an amazon alexa controlled robot that moves when you command it. Your wish is my command.")
 *Alexabot is an amazon alexa controlled robot that moves when you command it.
 Your wish is my command.*
 
