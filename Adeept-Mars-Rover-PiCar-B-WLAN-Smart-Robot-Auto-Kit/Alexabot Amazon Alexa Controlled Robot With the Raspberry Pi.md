@@ -178,7 +178,7 @@ And then run the server:
     python alexabot-flask-app.py
 You should see something like this:
 
-[flask-server-started-on-alexabot](imagesGoPiGo/flask-started-on-alexabot.png "flask-server-started-on-alexabot")
+![flask-server-started-on-alexabot](imagesGoPiGo/flask-started-on-alexabot.png "flask-server-started-on-alexabot")
     
 
 To get a general idea of how the code works on the Flask server, we’ve set up each command to listen to a specific Flask URL.  For example, if you were to call, in your web browser, “[http://alexabot.ngrok.io/forward](http://alexabot.ngrok.io/forward "http://alexabot.ngrok.io/forward")” we get the response in our browser back “Alexabot moved forward!”.  Looking at the code for the directory “forward”:
