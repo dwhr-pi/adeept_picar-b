@@ -30,10 +30,21 @@ Adeept is a technical service team of open source software and hardware. Dedicat
  Customer Service:   service@adeept.com<br/>
  Website:            www.adeept.com<br/>
 
+## Original Repository
 
-Addition
+https://github.com/adeept/adeept_picar-b
 
-Interesting Forks: 
+## Addition
+
+- Interesting Forks: 
+[Adeept 4WD Smart Car Kit for Raspberry Pi PiCar-B-V1.0](https://github.com/adeept/Adeept_PiCar-B_oldversion)
 [Enhancements for PiCar-B including mobile script](https://github.com/ricktorzynski/adeept-picar-b-enhanced)
+[Pi-Car-B-Playground V1.0](https://github.com/shelbourn/PiCar-B-Playground)
+[TMF42 Smart Car based on Adeept 4WD Smart Car Kit for Raspberry Pi PiCar-B](https://github.com/TMF42/adeept_picar-b)
+[modified code from the Adeept PiCar-B](https://github.com/jimingkang/adeept_picar-bv2.0)
+[modified code from the Adeept PiCar-B](https://github.com/bswe/robot_car)
+[modified code from the Adeept PiCar-B-V1.0](https://github.com/mdm-mx/Adeept_PiCar-B-V1.0)
 
-Good suggestions: 
+[Description](https://github.com/karlyamashita/adeept_picar-b)
+
+- Good suggestions: 
