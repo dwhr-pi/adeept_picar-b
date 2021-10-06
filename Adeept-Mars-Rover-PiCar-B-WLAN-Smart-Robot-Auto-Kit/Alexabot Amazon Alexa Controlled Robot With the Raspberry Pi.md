@@ -103,18 +103,19 @@ First, connect Amazon Alexa to your IFTTT Account.   Then we’ll do the followi
 
 ![Amazon Alexa Controlled Robot Select That in IFTT](imagesGoPiGo/Applet-Select-THAT-300x70.png "Amazon Alexa Controlled Robot Select That in IFTT")
 
-
 5.  We’ll use the action service “Maker”.
 
- Amazon Alexa Controlled Robot
+![Amazon Alexa Controlled Robot](imagesGoPiGo/Applet-Action-service-maker-300x211.png "Amazon Alexa Controlled Robot")
+
 
 6.  Click “Make a web request” and specify the information.
 
-Amazon Alexa Controlled Robot
+![Amazon Alexa Controlled Robot](imagesGoPiGo/IFTT-Make-a-web-request-214x300.png "Amazon Alexa Controlled Robot")
+
 
 7.  The URL is either your provided ngrok url, or your custom domain.  We will find this in our next step, but for now we can enter in “ngrok.io”.
 
- Amazon Alexa Controlled Robot
+![Amazon Alexa Controlled Robot](imagesGoPiGo/IFTT-Applet-with-random-domain-ngrok-161x300.png "Amazon Alexa Controlled Robot")
 
 8.  Our applet will be doing a “GET” method, the content will be text, and don’t put anything in the body.
 
@@ -122,12 +123,15 @@ Amazon Alexa Controlled Robot
 
 We will need to do this for all the moves you want your Amazon Alexa controlled robot to make!  In our project we made seven: one for “Forward”, “Backward”, “Left”, “Stop”, “Right”, “Dance” and “Coffee”.
 
+
+
 - Connect to ngrok
-We will have IFTTT contact a server on the Pi, but the tricky part will be setting up a server on the Pi that’s visible to the world outside our local WiFi network.    ngrok is a service that allows you to connect to your Raspberry Pi through any network.  With ngrok, you don’t need to be on the same local network as your Pi to SSH in or to access a web server.  ngrok will help us pipe information back from IFTTT to the Pi. IFTTT needs an internet-based URL to contact, so we’ll use ngrok to make our server accessible to the outside world.
+We will have IFTTT contact a server on the Pi, but the tricky part will be setting up a server on the Pi that’s visible to the world outside our local WiFi network. 
+[ngrok](https://ngrok.com/) is a service that allows you to connect to your Raspberry Pi through any network.  With ngrok, you don’t need to be on the same local network as your Pi to SSH in or to access a web server.  ngrok will help us pipe information back from IFTTT to the Pi. IFTTT needs an internet-based URL to contact, so we’ll use ngrok to make our server accessible to the outside world.
 
 We have a full tutorial on how to use ngrok with the Raspberry Pi here.
 
-First, set up an account with ngrok here.  You can get away with a free account, but it will be much easier to set up Alexabot with a paid account.  A paid account will allow you to set up named servers, rather than ngrok’s randomly assigned server.
+First, [set up an account with ngrok here](https://dashboard.ngrok.com/signup).  You can get away with a free account, but it will be much easier to set up Alexabot with a paid account.  A paid account will allow you to set up named servers, rather than ngrok’s randomly assigned server.
 
 Next install ngrok on your Raspberry Pi.  On your Pi, in the command line, type:
 
@@ -137,8 +141,7 @@ Next install ngrok on your Raspberry Pi.  On your Pi, in the command line, type:
     unzip ngrok-stable-linux-arm.zip
 This should install all the software.  You will next need to get your token; this will authorize your Raspberry Pi to ngrok.  If you login to your account here, you will see step 2, with your token already populated.  It should start with “./ngrok authtoken”.  Copy the command, and paste it into your command line.
 
-    ngrok-install-authtoken
-
+[ngrok-install-authtoken](imagesGoPiGo/ngrok-install-authtoken-300x200.jpg "ngrok-install-authtoken")
 Test out ngrok.  You can type the following into the command line:
 
     ./ngrok http 80
