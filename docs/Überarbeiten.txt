@@ -13,3 +13,5 @@ pocketsphinx
 https://github.com/cmusphinx/pocketsphinx
 
 
+https://snapcraft.io/
+
