@@ -6,6 +6,10 @@ some corrections
 
 https://www.google.com/search?q=bison+need+to+install&oq=bison+need+to+install&aqs=chrome..69i57.2693551j1j4&sourceid=chrome&ie=UTF-8
 bison need to install
+https://installati.one/debian/10/bison/
+sudo apt-get -y install bison
 
+pocketsphinx
+https://github.com/cmusphinx/pocketsphinx
 
 
