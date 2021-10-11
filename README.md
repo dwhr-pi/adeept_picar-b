@@ -38,7 +38,6 @@ https://github.com/adeept/adeept_picar-b
 
 [PiCarPro Assembly tutorial V3.0](./docs/PiCarPro Assembly tutorial V3.0.md) 
 
-
 [Tutorial_V2-Part 1](./docs/Tutorial_V2.md) 
 
 [Tutorial_V2-Part 2](./docs/Tutorial_V2.md)
