@@ -1,8 +1,8 @@
 ![0](images/0.jpg)
 
-## Ressourcen-Link
+## Resources Link														
 
-[Robotername]: Adeept_PiCar-B
+[RobotName]: Adeept_PiCar-B
 
 [RobotURL]: https://github.com/adeept/adeept_picar-b
 
@@ -20,6 +20,11 @@
 
 
 
+[RoboterName]: Adeept_PiCar-B
+
+[RobotURL]: https://github.com/adeept/adeept_picar-b
+
+[RobotGit]: https://github.com/adeept/adeept_picar-b.git
 
 [Offizielle Raspberry Pi-Website]: https://www.raspberrypi.org/downloads/
 
