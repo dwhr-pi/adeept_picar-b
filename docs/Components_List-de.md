@@ -1,6 +1,6 @@
 ![0](images/0.jpg)
 
-##Ressourcen-Link
+## Ressourcen-Link
 
 [Robotername]: Adeept_PiCar-B
 
@@ -20,7 +20,7 @@
 
 ## Komponentenliste
 
-###Acrylplatten
+### Acrylplatten
 
 ![1](images/1.jpg)
 ![2](images/2.jpg)
@@ -42,11 +42,11 @@ Elektronische Teile
 
 ![5](images/5.jpg)
 
-Werkzeuge
+### Werkzeuge
 
 ![6](images/6.jpg)
 ![7](images/7.jpg)
 
-Selbst hergestellte Teile
+### Selbst hergestellte Teile
 
 ![8](images/8.jpg)

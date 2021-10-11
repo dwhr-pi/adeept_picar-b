@@ -42,12 +42,12 @@ Electronic Parts
 
 ![5](images/5.jpg)
 
-Tools
+### Tools
 
 ![6](images/6.jpg)
 ![7](images/7.jpg)
 
-Self-prepared Parts
+### Self-prepared Parts
 
 ![8](images/8.jpg)
 
