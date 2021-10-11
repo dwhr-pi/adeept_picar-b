@@ -22,11 +22,11 @@ In this tutorial we build Alexabot, the Amazon Alexa Controlled Robot, using the
 
 ## Overview of the Amazon Alexa Controlled Robot
 The Demostration Video
-[Video](https://youtu.be/rXP_DZDefeA)
+[Video](https://youtu.be/rXP_DZDefeA)  
 https://www.youtube.com/watch?v=rXP_DZDefeA&feature=emb_logo
 
 The Build Video
-[Video](https://youtu.be/jiZiNbABGfw)
+[Video](https://youtu.be/jiZiNbABGfw)  
 https://www.youtube.com/watch?v=jiZiNbABGfw&feature=emb_logo
 
 Amazon Alexa software can be put on the Raspberry Pi Robot, the GoPiGo.  In this project, we wanted to create an Alexa-based robot that would respond to voice commands, as well as answer your questions.  You can ask Alexabot “How hot is it in Dubai?”  or “What’s the weather like in London?”.  What makes Alexabot really interesting is that you can command it around with your voice, using the Alexa Voice Service.
