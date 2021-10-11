@@ -1,4 +1,4 @@
-### Alexabot: Amazon Alexa Controlled Robot With the Raspberry Pi
+### Alexabot: Amazon Alexa Controlled Robot with the Raspberry Pi
 
 https://www.dexterindustries.com/projects/alexabot-amazon-alexa-controlled-robot/
 

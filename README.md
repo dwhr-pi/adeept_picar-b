@@ -44,7 +44,7 @@ https://github.com/adeept/adeept_picar-b
 
 [Adeept PiCar-B image file URL](./docs/Adeept-PiCar-B_image_file.md) Adeept PiCar-B image file URL
 
-[Alexabot.md](./docs/Alexabot.md) 
+[Alexabot: Amazon Alexa Controlled Robot with the Raspberry Pi](./docs/Alexabot.md) 
 
 [Tutorial_V2-Part 2](./docs/Tutorial_V2.md)
 
