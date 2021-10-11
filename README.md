@@ -38,13 +38,13 @@ https://github.com/adeept/adeept_picar-b
 
 [PiCarPro Assembly tutorial V3.0](./docs/PiCarPro_Assembly_tutorial_V3.0.md) - Montageanleitung V3.0
 
-[Tutorial_V2-Part 3](./docs/Components_List.md) Components List
+[Tutorial_V2-Part 3](./docs/Components_List.md) - Components List
 
 [Tutorial_V2-Part 3](./docs/Tutorial_V2.md) PiCarPro Assembly tutorial V3.0 - Montageanleitung
 
 [Adeept PiCar-B image file URL](./docs/Adeept-PiCar-B_image_file.md) Adeept PiCar-B image file URL
 
-[Tutorial_V2-Part 1](./docs/Tutorial_V2.md) 
+[Alexabot.md](./docs/Alexabot.md) 
 
 [Tutorial_V2-Part 2](./docs/Tutorial_V2.md)
 
