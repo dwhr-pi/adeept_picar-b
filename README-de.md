@@ -68,4 +68,4 @@ https://github.com/adeept/adeept_picar-b
 
 - Gute Vorschläge (nicht von Adeept):
 
-[Alexabot Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi](./docs/Alexabot.md) Alexabot Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi
+[Alexabot Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi](./docs/Alexabot-de.md) Alexabot Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi
