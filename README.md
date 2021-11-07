@@ -60,14 +60,13 @@ https://github.com/adeept/adeept_picar-b
 
 [TMF42 Smart Car basierend auf Adeept 4WD Smart Car Kit für Raspberry Pi PiCar-B](https://github.com/TMF42/adeept_picar-b)
 
-[modifizierter Code vom Adeept PiCar-B] (https://github.com/jimingkang/adeept_picar-bv2.0)
+[modifizierter Code vom Adeept PiCar-B](https://github.com/jimingkang/adeept_picar-bv2.0)
 
 [modifizierter Code vom Adeept PiCar-B](https://github.com/bswe/robot_car)
 
 [modifizierter Code aus dem Adeept PiCar-B-V1.0](https://github.com/mdm-mx/Adeept_PiCar-B-V1.0)
 
-
-[Beschreibung](https://github.com/karlyamashita/adeept_picar-b)
+[Polizeilicht und andere Mods hinzugefügt](https://github.com/karlyamashita/adeept_picar-b)
 
 - Gute Vorschläge:
 

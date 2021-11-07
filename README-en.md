@@ -67,7 +67,7 @@ https://github.com/adeept/adeept_picar-b
 [modified code from the Adeept PiCar-B-V1.0](https://github.com/mdm-mx/Adeept_PiCar-B-V1.0)
 
 
-[Description](https://github.com/karlyamashita/adeept_picar-b)
+[Added Police and other Mods](https://github.com/karlyamashita/adeept_picar-b)
 
 - Good suggestions: 
 
