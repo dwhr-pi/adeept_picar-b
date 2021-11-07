@@ -73,11 +73,11 @@ Wir sind hier der Schritt-für-Schritt-Anleitung zum Einrichten eines Kontos auf
 
 Die Installation von AlexaPi auf Ihrem Raspberry Pi geht auch schnell! Sie müssen hier einige Git-Befehle eingeben. Bevor Sie beginnen, stellen Sie die von Ihnen erstellten Anmeldeinformationen zusammen, z. B. Ihre Client-ID, Ihr Client-Geheimnis und Ihre Sicherheitsprofil-ID. In der Befehlszeile:  
 
-	```
+
     cd /opt
     sudo git clone https://github.com/alexa-pi/AlexaPi.git
     sudo ./AlexaPi/src/scripts/setup.sh
-	```
+
 
 Zu diesem Zeitpunkt sollten Sie Alexa auf Ihrem GoPiGo ausführen können, genau wie auf einem Amazon Echo. Bitten Sie um ein News-Update: "Alexa, was gibt es Neues?"
 
