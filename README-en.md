@@ -36,11 +36,11 @@ https://github.com/adeept/adeept_picar-b
 
 ## Documents
 
-[PiCarPro Assembly tutorial V3.0](./docs/PiCarPro_Assembly_tutorial_V3.0.md) - Montageanleitung V3.0 of Version 2
+[PiCarPro Assembly tutorial V3.0](./docs/PiCarPro_Assembly_tutorial_V3.0.md) - Assembly tutorial V3.0 of Version 2
 
 [Tutorial_V2-Part 3](./docs/Components_List.md) - Components List
 
-[Tutorial_V2-Part 3](./docs/Tutorial_V2.md) PiCarPro Assembly tutorial V3.0 - Montageanleitung of Version 1
+[Tutorial_V2-Part 3](./docs/Tutorial_V2.md) PiCarPro Assembly tutorial V3.0 - Assembly tutorial of Version 1
 
 [Adeept PiCar-B image file URL](./docs/Adeept-PiCar-B_image_file.md) Adeept PiCar-B image file URL
 
@@ -50,7 +50,7 @@ https://github.com/adeept/adeept_picar-b
 
 ## Addition
 
-- Interesting Forks: 
+- Interesting forks on GitHub: 
 
 [Adeept 4WD Smart Car Kit for Raspberry Pi PiCar-B-V1.0](https://github.com/adeept/Adeept_PiCar-B_oldversion)
 

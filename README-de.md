@@ -48,9 +48,9 @@ https://github.com/adeept/adeept_picar-b
 
 [Tutorial_V2-Teil 2](./docs/Tutorial_V2.md)
 
-##Zusatz
+## Zusatz
 
-- Interessante Gabeln:
+- Interessante Gabelungen auf GitHub:
 
 [Adeept 4WD Smart Car Kit für Raspberry Pi PiCar-B-V1.0](https://github.com/adeept/Adeept_PiCar-B_oldversion)
 
