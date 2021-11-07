@@ -58,8 +58,7 @@ Documentation for structure assembly: https://www.adeept.com/learn/detail-33.htm
 
 ## Documents
 
-You can tell which of the two models you have on the steering. Where the servo is attached, on component A03. In order to find the right instructions for the assembly. Because there are some differences between the two versions of the model. 
-Because there are mainly differences in the assembly of the camera unit in the two versions. 
+You can tell which of the two models you have on the steering. Where the servo is attached, on component A03. In order to find the right instructions for the assembly. Because there are some differences between the two versions of the model, especially differences in the assembly of the camera unit and how it is attached to component A01.
 The installation instructions for the software apply to both models. 
 
 [PiCarPro Assembly tutorial V3.0](./docs/PiCarPro_Assembly_tutorial_V3.0.md) - Assembly tutorial V3.0 of Version 2
