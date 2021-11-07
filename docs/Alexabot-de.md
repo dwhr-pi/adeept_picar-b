@@ -97,7 +97,7 @@ Verbinden Sie zuerst Amazon Alexa mit Ihrem IFTTT-Konto. Dann werden wir Folgend
 
 2. Wählen Sie „Sagen Sie einen bestimmten Satz“.
 
-![applet-sagen-einen-spezifischen-satz](imagesGoPiGo/Applet-sagen-einen-spezifischen-satz-300x284.png "applet-sagen-einen-spezifischen-satz")
+![applet-sagen-einen-spezifischen-satz](imagesGoPiGo/Applet-Say-a-specific-phrase-300x284.png "applet-sagen-einen-spezifischen-satz")
 
 3. Geben Sie den Befehl an. Sag „Rückwärts“
 
@@ -143,7 +143,7 @@ Als nächstes installieren Sie ngrok auf Ihrem Raspberry Pi. Geben Sie auf Ihrem
     mkdir ~/ngrok
     cd ~/ngrok
     sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-    entpacken Sie ngrok-stable-linux-arm.zip
+    unzip ngrok-stable-linux-arm.zip
 Dies sollte die gesamte Software installieren. Als nächstes müssen Sie Ihr Token erhalten. Dadurch wird Ihr Raspberry Pi für ngrok autorisiert. Wenn Sie sich hier bei Ihrem Konto anmelden, sehen Sie Schritt 2, in dem Ihr Token bereits ausgefüllt ist. Es sollte mit „./ngrok authtoken“ beginnen. Kopieren Sie den Befehl und fügen Sie ihn in Ihre Befehlszeile ein.
 
 [ngrok-install-authtoken](imagesGoPiGo/ngrok-install-authtoken-300x200.jpg "ngrok-install-authtoken")
@@ -168,7 +168,7 @@ Der letzte Schritt bei der Einrichtung unseres von Amazon Alexa gesteuerten Robo
 
 Wir richten einen Flask-Server in Python ein, um IFTT zu hören. Wir gehen davon aus, dass Sie Raspbian for Robots ausführen, auf dem der Python-Paketmanager Pip bereits installiert ist. Um Flask auf dem Raspberry Pi zu installieren, müssen Sie einfach Folgendes in Ihre Befehlszeile eingeben:
 
-    sudo pip install kolben
+    sudo pip install flask
 
 Das wars so ziemlich. Flasche sollte installiert werden. Sie können versuchen, den Flaschenserver auszuführen, den wir in unserem Github-Code bereitgestellt haben, und sehen, was passiert.
 
@@ -179,7 +179,7 @@ Sie können die Datei finden, indem Sie entweder Ihr GoPiGo-Verzeichnis aktualis
 
 Und dann den Server ausführen:
 
-    python alexabot-flask-app.py
+     python alexabot-flask-app.py
 Sie sollten so etwas sehen:
 
 ![flask-server-started-on-alexabot](imagesGoPiGo/flask-started-on-alexabot.png "flask-server-started-on-alexabot")
@@ -187,7 +187,14 @@ Sie sollten so etwas sehen:
 
 Um eine allgemeine Vorstellung davon zu bekommen, wie der Code auf dem Flask-Server funktioniert, haben wir jeden Befehl so eingerichtet, dass er auf eine bestimmte Flask-URL hört. Wenn Sie beispielsweise in Ihrem Webbrowser „[http://alexabot.ngrok.io/forward](http://alexabot.ngrok.io/forward „http://alexabot.ngrok.io /forward")“ erhalten wir in unserem Browser die Antwort zurück „Alexabot ist vorgerückt!“. Betrachten Sie den Code für das Verzeichnis „vorwärts“:
 
-    print("Vorwärts!")
+    print("Forward!")
+    gopigo.fwd() # Sende die GoPiGo-Weiterleitung
+    time.sleep(1) # für 1 Sekunde.
+    gopigo.stop() # das Stoppen des GoPiGo
+    return 'Alexabot moved forward!'
+
+
+	print("Vorwärts!")
     gopigo.fwd() # Sende die GoPiGo-Weiterleitung
     time.sleep(1) # für 1 Sekunde.
     gopigo.stop() # das Stoppen des GoPiGo
