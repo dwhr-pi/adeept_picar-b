@@ -67,7 +67,7 @@ Die Installationsanleitung für die Software gilt für beide Modelle.
 
 [Tutorial_V2-Teil 3](./docs/Tutorial_V2.md) PiCarPro Montage-Tutorial V3.0 - Montageanleitung der Version 1
 
-[Adeept PiCar-B Bilddatei-URL](./docs/Adeept-PiCar-B_image_file.md) Adeept PiCar-B Imagedatei-URL
+[Adeept PiCar-B Imagedatei-URL](./docs/Adeept-PiCar-B_image_file.md) Adeept PiCar-B Imagedatei-URL
 
 [Tutorial_V2-Teil 2](./docs/Tutorial_V2.md)
 
