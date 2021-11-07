@@ -58,12 +58,12 @@ Dokumentation zur Strukturmontage: https://www.adeept.com/learn/detail-33.html
 
 ## Dokumente
 
-Welches der beiden Modelle Sie haben, kann man an der Lenkung gut unterscheiden. Dort wo der Servo angebracht wird. Um damit die richtige Anleitung für den Zusammenbau zu finden. Denn es gibt schon einige Unterschiede zwischen beiden Versionen des Modells. 
+Welches der beiden Modelle Sie haben, kann man an der Lenkung gut unterscheiden. Dort wo der Servo angebracht wird, am Bauteil A03. Um damit die richtige Anleitung für den Zusammenbau zu finden. Denn es gibt schon einige Unterschiede zwischen beiden Versionen des Modells. 
 Die Installationsanleitung für die Software gilt für beide Modelle.
 
 [PiCarPro Montageanleitung V3.0](./docs/PiCarPro_Assembly_tutorial_V3.0.md) - Montageanleitung V3.0 der Version 2
 
-[Tutorial_V2-Teil 1](./docs/Components_List/Components_List-de.md) - Komponentenliste der Version 1
+[Tutorial_V2-Teil 1](./docs/Components_List/Components_List-de.md) - Komponentenliste der Version 2
 
 [Tutorial_V2-Teil 3](./docs/Tutorial_V2.md) PiCarPro Montage-Tutorial V3.0 - Montageanleitung der Version 1
 
