@@ -2,7 +2,7 @@
 
 Quelle: https://www.dexterindustries.com/projects/alexabot-amazon-alexa-controlled-robot/
 
-HINWEIS: Dieses Tutorial ist veraltet. Bitte beziehen Sie sich auf
+HINWEIS: Dieses Tutorial ist veraltet. Bitte beziehen Sie sich auf: [Alexa Voice Service  SDK](https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi.html "Alexa Voice Service  SDK")
 
 Richten Sie das AVS Device SDK auf Raspberry Pi aus der Quelle ein
 https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi.html
