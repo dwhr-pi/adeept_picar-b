@@ -10,7 +10,7 @@ https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi.html
 NOTE: This tutorial is outdated. Please refer to [Alexa Voice Service  SDK](https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi.html "Alexa Voice Service  SDK"). 
 
 
-![GoPiGo](imagesGoPiGo/Amazon-Alexa-Controlled-Robot-final_title-1-300x208.jpg "Alexabot is an amazon alexa controlled robot that moves when you command it. Your wish is my command.")
+![GoPiGo](images/Amazon-Alexa-Controlled-Robot-final_title-1-300x208.jpg "Alexabot is an amazon alexa controlled robot that moves when you command it. Your wish is my command.")
 
 *Alexabot is an amazon alexa controlled robot that moves when you command it.
 Your wish is my command.*
@@ -57,13 +57,13 @@ Alexabot works by using a few services strung together.
 
 ##  Amazon Alexa Controlled Robot Schematic 
 
-![Alexabot-schematic](imagesGoPiGo/Alexabot-Schematic-1024x359.jpg "Alexabot-schematic")
+![Alexabot-schematic](images/Alexabot-Schematic-1024x359.jpg "Alexabot-schematic")
 
 - Setting Up AlexaPi
 
 The first step towards robot world domination and build our Amazon Alexa controlled robot is to set up AlexaPi.
 
-![Setting Up AlexaPi](imagesGoPiGo/1-Setup_New_Device-300x147.png "Setting Up AlexaPi")
+![Setting Up AlexaPi](images/1-Setup_New_Device-300x147.png "Setting Up AlexaPi")
 
 There are a few tutorials on how to turn your Raspberry Pi into an Amazon Echo using Amazon Alexa.  However, AlexaPi is the easiest way to get Amazon Alexa on your Raspberry Pi.  The project has prepared everything you can possibly do to make setting up Alexa Voice Services on your Raspberry Pi streamlined and easy.  The hardest part is setting up your Amazon Developer account and gathering your credentials (and really, that’s not that bad!).
 
@@ -91,33 +91,33 @@ First, connect Amazon Alexa to your IFTTT Account.   Then we’ll do the followi
 
 1. Create an IFTTT applet *for our first command.  We will create an* Alexa applet.
 
-![Amazon Alexa Controlled Robot](imagesGoPiGo/Select-Alexa-Service.png "Amazon Alexa Controlled Robot")
+![Amazon Alexa Controlled Robot](images/Select-Alexa-Service.png "Amazon Alexa Controlled Robot")
 
 2.  Select “Say a Specific Phrase”.
 
-![applet-say-a-specific-phrase](imagesGoPiGo/Applet-Say-a-specific-phrase-300x284.png "applet-say-a-specific-phrase")
+![applet-say-a-specific-phrase](images/Applet-Say-a-specific-phrase-300x284.png "applet-say-a-specific-phrase")
 
 3.  Specify the command. Say “Backward”
 
-![Amazon Alexa Controlled Robot](imagesGoPiGo/Applet-Say-specify-the-command-264x300.png "Amazon Alexa Controlled Robot")
+![Amazon Alexa Controlled Robot](images/Applet-Say-specify-the-command-264x300.png "Amazon Alexa Controlled Robot")
 
 4.  Next, select “That”.
 
-![Amazon Alexa Controlled Robot Select That in IFTT](imagesGoPiGo/Applet-Select-THAT-300x70.png "Amazon Alexa Controlled Robot Select That in IFTT")
+![Amazon Alexa Controlled Robot Select That in IFTT](images/Applet-Select-THAT-300x70.png "Amazon Alexa Controlled Robot Select That in IFTT")
 
 5.  We’ll use the action service “Maker”.
 
-![Amazon Alexa Controlled Robot](imagesGoPiGo/Applet-Action-service-maker-300x211.png "Amazon Alexa Controlled Robot")
+![Amazon Alexa Controlled Robot](images/Applet-Action-service-maker-300x211.png "Amazon Alexa Controlled Robot")
 
 
 6.  Click “Make a web request” and specify the information.
 
-![Amazon Alexa Controlled Robot](imagesGoPiGo/IFTT-Make-a-web-request-214x300.png "Amazon Alexa Controlled Robot")
+![Amazon Alexa Controlled Robot](images/IFTT-Make-a-web-request-214x300.png "Amazon Alexa Controlled Robot")
 
 
 7.  The URL is either your provided ngrok url, or your custom domain.  We will find this in our next step, but for now we can enter in “ngrok.io”.
 
-![Amazon Alexa Controlled Robot](imagesGoPiGo/IFTT-Applet-with-random-domain-ngrok-161x300.png "Amazon Alexa Controlled Robot")
+![Amazon Alexa Controlled Robot](images/IFTT-Applet-with-random-domain-ngrok-161x300.png "Amazon Alexa Controlled Robot")
 
 8.  Our applet will be doing a “GET” method, the content will be text, and don’t put anything in the body.
 
@@ -144,13 +144,13 @@ Next install ngrok on your Raspberry Pi.  On your Pi, in the command line, type:
     unzip ngrok-stable-linux-arm.zip
 This should install all the software.  You will next need to get your token; this will authorize your Raspberry Pi to ngrok.  If you login to your account here, you will see step 2, with your token already populated.  It should start with “./ngrok authtoken”.  Copy the command, and paste it into your command line.
 
-[ngrok-install-authtoken](imagesGoPiGo/ngrok-install-authtoken-300x200.jpg "ngrok-install-authtoken")
+[ngrok-install-authtoken](images/ngrok-install-authtoken-300x200.jpg "ngrok-install-authtoken")
 Test out ngrok.  You can type the following into the command line:
 
     ./ngrok http 80
 And you should see a server start up.
 
-![ngrok_start-example](imagesGoPiGo/NGROK_START-example.png "ngrok_start-example")
+![ngrok_start-example](images/NGROK_START-example.png "ngrok_start-example")
 
 When an IP address appears, try typing this into your browser.  You should see your default server on Port 80 come up.  With Raspbian for Robots, you should see the Raspbian for Robots entrance page show up.
 
@@ -180,7 +180,7 @@ And then run the server:
     python alexabot-flask-app.py
 You should see something like this:
 
-![flask-server-started-on-alexabot](imagesGoPiGo/flask-started-on-alexabot.png "flask-server-started-on-alexabot")
+![flask-server-started-on-alexabot](images/flask-started-on-alexabot.png "flask-server-started-on-alexabot")
     
 
 To get a general idea of how the code works on the Flask server, we’ve set up each command to listen to a specific Flask URL.  For example, if you were to call, in your web browser, “[http://alexabot.ngrok.io/forward](http://alexabot.ngrok.io/forward "http://alexabot.ngrok.io/forward")” we get the response in our browser back “Alexabot moved forward!”.  Looking at the code for the directory “forward”:

@@ -93,4 +93,4 @@ Die Installationsanleitung für die Software gilt für beide Modelle.
 
 - Gute Vorschläge (nicht von Adeept):
 
-[Alexabot Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi](./docs/Alexabot-de.md) Alexabot Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi
+[Alexabot Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi](./docs/Alexabot/Alexabot-de.md) Alexabot Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi
