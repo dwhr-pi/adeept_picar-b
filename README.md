@@ -18,6 +18,9 @@
 # Adeept-Mars-Rover-PiCar-B-WLAN-Smart-Robot-Auto-Kit
 # Adeept 4WD Smart Car Kit für Raspberry Pi PiCar-B
 
+[The English language version of the documents can be found here.](README-en.md)
+[The German language version of the documents can be found here.](README-de.md)
+
 ## Informationen zu diesem Produkt
 
 https://www.adeept.com/learn/detail-33.html
