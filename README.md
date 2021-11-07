@@ -44,8 +44,6 @@ https://github.com/adeept/adeept_picar-b
 
 [Adeept PiCar-B Bilddatei-URL](./docs/Adeept-PiCar-B_image_file.md) Adeept PiCar-B Imagedatei-URL
 
-[Alexabot: Amazon Alexa-gesteuerter Roboter mit dem Raspberry Pi](./docs/Alexabot.md)
-
 [Tutorial_V2-Teil 2](./docs/Tutorial_V2.md)
 
 ## Zusatz
@@ -68,6 +66,6 @@ https://github.com/adeept/adeept_picar-b
 
 [Polizeilicht und andere Mods hinzugefügt](https://github.com/karlyamashita/adeept_picar-b)
 
-- Gute Vorschläge:
+- Gute Vorschläge (nicht von Adeept):
 
 [Alexabot Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi](./docs/Alexabot.md) Alexabot Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi
