@@ -57,7 +57,7 @@ Dokumentation zur Strukturmontage: https://www.adeept.com/learn/detail-33.html
 
 [PiCarPro Montageanleitung V3.0](./docs/PiCarPro_Assembly_tutorial_V3.0.md) - Montageanleitung V3.0 der Version 2
 
-[Tutorial_V2-Teil 3](./docs/Components_List/Components_List-de.md) - Komponentenliste
+[Tutorial_V2-Teil 1](./docs/Components_List/Components_List-de.md) - Komponentenliste
 
 [Tutorial_V2-Teil 3](./docs/Tutorial_V2.md) PiCarPro Montage-Tutorial V3.0 - Montageanleitung der Version 1
 
