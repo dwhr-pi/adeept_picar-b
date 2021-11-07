@@ -42,15 +42,15 @@ https://github.com/adeept/adeept_picar-b
 
 [Tutorial_V2-Teil 3](./docs/Tutorial_V2.md) PiCarPro Montage-Tutorial V3.0 - Montageanleitung der Version 1
 
-[Adeept PiCar-B Bilddatei-URL](./docs/Adeept-PiCar-B_image_file.md) Adeept PiCar-B Bilddatei-URL
+[Adeept PiCar-B Bilddatei-URL](./docs/Adeept-PiCar-B_image_file.md) Adeept PiCar-B Imagedatei-URL
 
 [Alexabot: Amazon Alexa-gesteuerter Roboter mit dem Raspberry Pi](./docs/Alexabot.md)
 
 [Tutorial_V2-Teil 2](./docs/Tutorial_V2.md)
 
-##Zusatz
+## Zusatz
 
-- Interessante Gabeln:
+- Interessante Gabelungen auf GitHub:
 
 [Adeept 4WD Smart Car Kit für Raspberry Pi PiCar-B-V1.0](https://github.com/adeept/Adeept_PiCar-B_oldversion)
 
