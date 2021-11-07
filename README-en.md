@@ -57,7 +57,7 @@ Documentation for structure assembly: https://www.adeept.com/learn/detail-33.htm
 
 [PiCarPro Assembly tutorial V3.0](./docs/PiCarPro_Assembly_tutorial_V3.0.md) - Assembly tutorial V3.0 of Version 2
 
-[Tutorial_V2-Part 3](./docs/Components_List/Components_List-en.md) - Components List
+[Tutorial_V2-Part 3](./docs/Components_List/Components_List-en.md) - Components List of Version 1
 
 [Tutorial_V2-Part 3](./docs/Tutorial_V2.md) PiCarPro Assembly tutorial V3.0 - Assembly tutorial of Version 1
 
