@@ -1,6 +1,6 @@
 ### Alexabot: Amazon Alexa gesteuerter Roboter mit dem Raspberry Pi
 
-https://www.dexterindustries.com/projects/alexabot-amazon-alexa-gesteuerter-roboter/
+Quelle: https://www.dexterindustries.com/projects/alexabot-amazon-alexa-controlled-robot/
 
 HINWEIS: Dieses Tutorial ist veraltet. Bitte beziehen Sie sich auf
 
@@ -20,14 +20,14 @@ In diesem Tutorial bauen wir Alexabot, den Amazon Alexa Controlled Robot, mit de
 
 *Endlich ein Raspberry Pi-Roboter, der Ihre Gebote beantwortet, nur mit dem Klang Ihrer Stimme!*
 
-##Übersicht über den von Amazon Alexa gesteuerten Roboter
+## Übersicht über den von Amazon Alexa gesteuerten Roboter  
 Das Demo-Video
 [Video](https://youtu.be/rXP_DZDefeA)
-https://www.youtube.com/watch?v=rXP_DZDefeA&feature=emb_logo
+<!--https://www.youtube.com/watch?v=rXP_DZDefeA&feature=emb_logo-->
 
-Das Build-Video
+Das Build-Video  
 [Video](https://youtu.be/jiZiNbABGfw)
-https://www.youtube.com/watch?v=jiZiNbABGfw&feature=emb_logo
+<!--https://www.youtube.com/watch?v=jiZiNbABGfw&feature=emb_logo-->
 
 Die Amazon Alexa-Software kann auf dem Raspberry Pi Robot, dem GoPiGo, installiert werden. In diesem Projekt wollten wir einen Alexa-basierten Roboter entwickeln, der auf Sprachbefehle reagiert und Ihre Fragen beantwortet. Sie können Alexabot fragen: „Wie heiß ist es in Dubai?“ oder „Wie ist das Wetter in London?“. Was Alexabot wirklich interessant macht, ist, dass Sie es mit Ihrer Stimme steuern können, indem Sie den Alexa Voice Service verwenden.
 
@@ -35,7 +35,7 @@ Die Amazon Alexa-Software kann auf dem Raspberry Pi Robot, dem GoPiGo, installie
 
 Einrichten der Amazon Alexa-gesteuerten Roboterhardware
 
-##Hardware-Setup
+## Hardware-Setup
 Die Hardware zum Aufbau des Alexa-gesteuerten Roboters ist sehr einfach. Wir haben folgende Teile verwendet:
 
 - Der GoPiGo – Der Körper des Roboters. Der GoPiGo wird die Gebote von Alexa ausführen.
@@ -72,11 +72,11 @@ Bevor Sie beginnen, möchten Sie Ihren GoPiGo mit Ihrem lokalen WLAN-Netzwerk ve
 Wir sind hier der Schritt-für-Schritt-Anleitung zum Einrichten eines Kontos auf Ihrem Raspberry Pi gefolgt. Zuerst müssen Sie sich für ein Amazon-Entwicklerkonto registrieren. Das Einrichten eines Entwicklerkontos ist kostenlos und einfach. Sie müssen ein Geräte- und Sicherheitsprofil erstellen.
 
 Die Installation von AlexaPi auf Ihrem Raspberry Pi geht auch schnell! Sie müssen hier einige Git-Befehle eingeben. Bevor Sie beginnen, stellen Sie die von Ihnen erstellten Anmeldeinformationen zusammen, z. B. Ihre Client-ID, Ihr Client-Geheimnis und Ihre Sicherheitsprofil-ID. In der Befehlszeile:
-
+	```
     cd /opt
-    sudo git-Klon https://github.com/alexa-pi/AlexaPi.git
+    sudo git clone https://github.com/alexa-pi/AlexaPi.git
     sudo ./AlexaPi/src/scripts/setup.sh
-
+	```
 Zu diesem Zeitpunkt sollten Sie Alexa auf Ihrem GoPiGo ausführen können, genau wie auf einem Amazon Echo. Bitten Sie um ein News-Update: "Alexa, was gibt es Neues?"
 
 
