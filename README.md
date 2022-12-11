@@ -39,6 +39,7 @@ Adeept ist ein technisches Serviceteam für Open-Source-Software und -Hardware. 
 https://github.com/adeept/adeept_picar-b
 
 ## Erstellen der Dokumentation
+Hiermit sollen Sie künftig sich selbst eine Dokumentation als Webseite mit erstellen können, die Sie dann im Ihrem Browser aufrufen können. 
 
 - Klonen Sie es: `git clone https://github.com/dwhr-pi/adeept_picar-b.git`
 - Abhängigkeiten installieren/aktualisieren: `pip3 install -Ur requirements.txt`
