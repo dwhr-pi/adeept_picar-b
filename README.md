@@ -38,6 +38,19 @@ Adeept ist ein technisches Serviceteam für Open-Source-Software und -Hardware. 
 
 https://github.com/adeept/adeept_picar-b
 
+## Erstellen der Dokumentation
+
+- Klonen Sie es: `git clone https://github.com/dwhr-pi/adeept_picar-b.git`
+- Abhängigkeiten installieren/aktualisieren: `pip3 install -Ur requirements.txt`
+- Verzeichnis wechseln: `cd adeept_picar-b`
+- Führen Sie im Stammverzeichnis Folgendes aus: `mkdocs serve`
+
+- Update bzw. Upgrade von Phyton durchführen `sudo /usr/bin/python3 -m pip install --upgrade pip`
+
+Es baut die statischen HTML-Seiten in ein temporäres Verzeichnis und startet einen lokalen Webserver unter `http://localhost:8010`. Wenn Sie Probleme beim Zugriff auf die MkDocs-Website haben, können Sie auch eine bestimmte IP-Adresse oder alle IP-Adressen abhören, z. B. `mkdocs serve -a 0.0.0.0:8010`.  
+`mkdocs serve -a 192.168.178.21:8010`  
+
+
 ## Resources Link	
 
 RoboterName: Adeept_PiCar-B
